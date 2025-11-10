@@ -1,0 +1,2 @@
+# twitch_favorite_emote_editor
+twitchのチャット欄に入力するスタンプの「頻繁に使用」欄を編集するツール
