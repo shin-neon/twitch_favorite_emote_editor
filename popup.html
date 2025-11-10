@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>Emote History</title>
+<link rel="stylesheet" href="popup.css">
+<style>
+  body { font-family: sans-serif; margin:0; padding:0; }
+  #header { display: flex; align-items: center; gap: 8px; padding: 4px; position: sticky; top: 0; background: #fff; z-index: 2; border-bottom: 1px solid #ccc; }
+  table { width: 100%; border-collapse: collapse; }
+  th, td { border: 1px solid #ccc; padding: 4px 8px; text-align: left; }
+  th { background: #f0f0f0; }
+  tbody tr:nth-child(odd){background:#fafafa;}
+  input[type="number"] { width: 70px; text-align: right; }
+  input[type="text"] { background: #f8f8f8; }
+  button { cursor: pointer; }
+</style>
+</head>
+<body>
+
+<div id="header">
+  <input type="text" id="search" placeholder="検索" autocomplete="off">
+  <button id="prevHit">&lt;</button>
+  <span id="hitInfo">0/0</span>
+  <button id="nextHit">&gt;</button>
+  <button id="saveBtn">保存</button>
+  <button id="previewBtn">プレビュー</button>
+</div>
+
+<table>
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>Emote</th>
+      <th>Uses</th>
+      <th>削除</th>
+    </tr>
+  </thead>
+  <tbody id="emoteTable"></tbody>
+</table>
+
+<!-- プレビュー用モーダル -->
+<div id="previewModal">
+  <div id="previewBox">
+    <div id="previewHeader">ーーーーーーーーーーーーー<br>頻繁に使用<br>ーーーーーーーーーーーーー</div>
+    <div id="previewContent"></div>
+  </div>
+</div>
+
+<script src="popup.js"></script>
+</body>
+</html>

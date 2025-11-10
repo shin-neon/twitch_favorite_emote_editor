@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Twitch Emote Picker Editor",
+  "version": "1.0",
+  "description": "Twitchのemote_picker_historyを編集するツール",
+  "permissions": ["storage", "scripting", "activeTab"],
+  "host_permissions": ["https://www.twitch.tv/*"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "128": "icon.png"
+    }
+  }
+}

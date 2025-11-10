@@ -1,0 +1,42 @@
+body { font-family: sans-serif; width: 400px; padding: 10px; }
+table { border-collapse: collapse; width: 100%; margin-top: 10px; }
+th, td { border: 1px solid #ccc; padding: 5px 10px; text-align: left; }
+input[type="number"] { width: 70px; text-align: right; }
+button { padding: 4px 8px; margin-top: 10px; cursor: pointer; }
+tbody tr:hover { background: #eef; }
+
+/* プレビュー関連 */
+#previewModal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.5);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 10000;
+}
+#previewBox {
+  background: #fff;
+  padding: 12px 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+  text-align: center;
+}
+#previewHeader {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 10px;
+  white-space: pre-line;
+}
+#previewContent {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+  justify-items: center;
+}
+#previewContent img {
+  width: 48px;
+  height: 48px;
+}
