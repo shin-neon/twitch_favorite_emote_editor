@@ -13,7 +13,7 @@
 ### 🔽 ダウンロード方法
 
 以下のリンクから zip ファイルを直接ダウンロードできます：  
-`https://github.com/<ユーザー名>/<リポジトリ名>/archive/refs/heads/main.zip`  
+`https://github.com/shin_neon/twitch_favorite_emote_editor/archive/refs/heads/main.zip`  
 ※ `<ユーザー名>` と `<リポジトリ名>` は後で書き換えてください。
 
 または、GitHub からクローンすることもできます：  
@@ -54,7 +54,7 @@
 
 **MIT License**  
 
-Copyright (c) 2025 [あなたの名前]
+Copyright (c) 2025 shin_neon
 
 Permission is hereby granted, free of charge, to any person obtaining a copy  
 of this software and associated documentation files (the “Software”), to deal  
