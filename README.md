@@ -13,7 +13,7 @@
 ### 🔽 ダウンロード方法
 
 以下のリンクから zip ファイルを直接ダウンロードできます：  
-[ZIP をダウンロード](https://github.com/shin_neon/twitch_favorite_emote_editor/archive/refs/heads/main.zip)
+[ZIP をダウンロード](https://github.com/shin-neon/twitch_favorite_emote_editor/archive/refs/heads/main.zip)
 
 または、GitHub からクローンすることもできます：  
 `git clone https://github.com/shin-neon/twitch_favorite_emote_editor.git`
