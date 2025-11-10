@@ -28,10 +28,8 @@
    `chrome://extensions/`  
 3. 右上の「デベロッパーモード」をオンにします。  
 4. 「パッケージ化されていない拡張機能を読み込む」をクリックします。  
-5. 解凍したフォルダを選択します。
-　　⇒「twitch_favorite_emote_editor-main」を選択して読み込ませる
-
-　これで追加作業は終わりです。
+5. 解凍したフォルダ「twitch_favorite_emote_editor-main」を選択します。
+6. 全ての拡張機能一覧に「twitch favorite emote editor 1.0.1」が追加されます。これで追加作業は終わりです。
 　
 ---
 
